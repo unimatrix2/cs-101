@@ -1,0 +1,24 @@
+{
+  "name": "binary-deca-cli",
+  "version": "0.0.1",
+  "description": "CLI that implements binary -> deca and deca -> binary conversion",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf ./dist && npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unimatrix2/cs-101.git"
+  },
+  "author": "Danny Nisenbaum (unimatrix2)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unimatrix2/cs-101/issues"
+  },
+  "homepage": "https://github.com/unimatrix2/cs-101#readme",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "typescript": "^5.1.6"
+  }
+}
