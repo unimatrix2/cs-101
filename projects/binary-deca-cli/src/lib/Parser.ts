@@ -1,4 +1,4 @@
-import type { Input } from '../@types/io';
+import type { Input, Output } from '../@types/io';
 
 export default class IOParser {
 	static parseJSONFromLine(jsonString: Input): number[] {
@@ -10,7 +10,7 @@ export default class IOParser {
 		}
 	}
 
-	// static convertOutputToJSONString(computedOutput: OperationOutput[]) {
-	// 	return JSON.stringify(computedOutput);
-	// }
+	static convertOutputToJSONString(computedOutput: Output[]) {
+		return JSON.stringify(computedOutput);
+	}
 }

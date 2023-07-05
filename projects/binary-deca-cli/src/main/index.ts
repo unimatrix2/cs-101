@@ -2,7 +2,7 @@ import readLine from 'readline';
 
 import IOParser from '../lib/Parser';
 
-export class CapitalGainsCalculator {
+export class BinaryDecaNumberConverter {
 	constructor() {
 		this.readLineInterface = readLine
 			.createInterface({
@@ -36,8 +36,8 @@ export class CapitalGainsCalculator {
 	private readLineInterface: readLine.Interface;
 
 	public static main() {
-		return new CapitalGainsCalculator();
+		new BinaryDecaNumberConverter();
 	}
 }
 
-export default CapitalGainsCalculator.main();
+export default BinaryDecaNumberConverter.main();
